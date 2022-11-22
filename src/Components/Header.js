@@ -50,7 +50,6 @@ const Header = () => {
       alertSwal("error", "Baobob network로 변경해주세요");
       return;
     } else if (window.klaytn.selectedAddress === undefined) {
-      alertSwal("error", "connect wallet 버튼을 click ");
       return;
     } else {
       dataSet();
