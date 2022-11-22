@@ -1,0 +1,131 @@
+.suggestionMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 80px;
+  width: calc(100vw - 80px);
+  height: 100vh;
+  background: #fafafa;
+}
+
+.suggestionBox {
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 0 24px;
+  width: 960px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.suggestionText {
+  width: 65%;
+  
+}
+
+.backIcon {
+  background:  #fafafa;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 20px;
+  span {
+    color:  #4360EC;
+    font-size: 20px;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
+
+.preview_text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 10px;
+  h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  h3 {
+    font-size: 25px;
+    color: cadetblue;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  background:  #fafafa;
+  border-radius: 10px;
+  label {
+    margin: 5px;
+  }
+  #Title {
+    margin: 10px 0;
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid cadetblue;
+    border-radius: 20px;
+    outline-color: white;
+  }
+  #Description {
+    // resize: both;
+    margin: 10px 0;
+    padding: 10px 15px;
+    height: 200px;
+    background: transparent;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    outline-color: white;
+  }
+}
+
+.previewSideBox {
+  width: 30%;
+  margin-top: 20px;
+  .previewBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0.1px solid white;
+    border-radius: 10px;
+    .preview {
+      width: 200px;
+      height: 38px;
+      margin: 10px;
+      padding: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      background: lightgray;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      cursor: pointer;
+      &:hover {
+        border: 1px solid white;
+      }
+    }
+  }
+}
+
+.createSuggestion {
+  width: 200px;
+  height: 38px;
+  margin: 10px;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  background: gray;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  &:hover {
+    background: darkgray;
+    cursor: pointer;
+  }
+}

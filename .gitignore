@@ -1,0 +1,21 @@
+# compiled output
+dist/*
+
+# dependencies
+/node_modules
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+/.idea
+
+.env
+npm-debug.log
+
+/coverage
+/config
+
+schema.gql
+/package-lock.json

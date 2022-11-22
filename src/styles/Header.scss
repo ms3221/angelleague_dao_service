@@ -1,0 +1,49 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 80px;
+  width: calc(100% - 80px);
+  height: 10%;
+  background: #fafafa;
+  border-bottom: 0.1px solid lightgray;
+  z-index: 99;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 960px;
+  height: 100%;
+}
+
+.headerName {
+  font-size: 26px;
+  font-weight: bold;
+  color:#4360EC;
+  text-shadow: 1px 1px 1px lightblue;
+}
+
+.walletBox {
+  div {
+    width: 200px;
+    height: 38px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(#4360EC, 0.4);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    transition: all 0.1s ease-in;
+    &:hover {
+      background: rgba(#4360EC, 0.8);
+      cursor: pointer;
+    }
+  }
+}
+.currentAccount {
+  padding-right: 10px;
+}

@@ -1,0 +1,78 @@
+{
+  "name": "trippywallet",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.19",
+    "@pinata/sdk": "^1.1.26",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "caver-js": "^1.8.1",
+    "dotenv": "^16.0.1",
+    "encryptor-node": "^1.0.0",
+    "eth-keyring-controller": "^7.0.2",
+    "eth-simple-keyring": "^4.2.0",
+    "fs": "^0.0.1-security",
+    "ipfs-core": "^0.15.4",
+    "ipfs-http-client": "^33.1.1",
+    "os": "^0.1.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-markdown": "^8.0.3",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.13.3",
+    "react-syntax-highlighter": "^15.5.0",
+    "recharts": "^2.1.12",
+    "recoil": "^0.7.3",
+    "remark-gfm": "^3.0.1",
+    "sass": "^1.54.0",
+    "scss": "^0.2.4",
+    "styled-components": "^5.3.5",
+    "sweetalert2": "^11.4.23",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.7.3"
+  },
+  "scripts": {
+    "start": "react-scripts start --openssl-legacy-provider",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "node-sass": "^6.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "sass-loader": "^13.0.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  }
+}
